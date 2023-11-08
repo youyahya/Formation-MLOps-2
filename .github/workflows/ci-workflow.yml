@@ -24,7 +24,7 @@ jobs:
               flake8
       - name: Run Vulture
         run:  pip install vulture
-               vulture .
+              vulture .
       - name: Run tests
         run:  pip install pytest
               pytest
